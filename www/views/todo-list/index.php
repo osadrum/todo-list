@@ -9,8 +9,8 @@ use yii\bootstrap\Modal;
  * @var app\models\search\TadoListSearch $searchModel
  */
 
-$this->title = 'Todo Lists';
-$this->params['breadcrumbs'][] = $this->title;
+/*$this->title = 'Todo Lists';
+$this->params['breadcrumbs'][] = $this->title;*/
 ?>
 <div class="todo-list-index">
 
@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
 	<?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
 	<p>
-		<?= Html::a('Create Todo List', ['create'], ['class' => 'btn btn-success']) ?>
+		<?= Html::a('Добавить', ['create'], ['class' => 'btn btn-success']) ?>
 	</p>
 
 	<?= GridView::widget([
@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
 			['class' => 'yii\grid\SerialColumn'],
 
 			'title',
-			'text:ntext',
+			//'text:ntext',
             [
                 'attribute' => 'status',
                 'value' =>function ($model) {

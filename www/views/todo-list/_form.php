@@ -12,16 +12,19 @@ use yii\widgets\ActiveForm;
 
 <div class="todo-list-form">
 
-	<?php $form = ActiveForm::begin(); ?>
+	<?php $form = ActiveForm::begin([
+        'id'=>'add-task-form',
+        'action' => ['create'],
+    ]); ?>
 
-		<?= $form->field($model, 'text')->textarea(['rows' => 6]) ?>
+        <?= $form->field($model, 'title')->textInput(['maxlength' => 255]) ?>
 
-		<?= $form->field($model, 'status')->textInput() ?>
+        <?= $form->field($model, 'status')->dropDownList(\app\models\TodoList::getListStatus()) ?>
 
-		<?= $form->field($model, 'title')->textInput(['maxlength' => 255]) ?>
+        <?= $form->field($model, 'text')->textarea(['rows' => 6]) ?>
 
 		<div class="form-group">
-			<?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+			<?= Html::button($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
 		</div>
 
 	<?php ActiveForm::end(); ?>

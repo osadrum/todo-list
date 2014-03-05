@@ -4,10 +4,32 @@
     <list default="true" id="74ffb934-6791-48f1-b6ab-24531165adff" name="Default" comment="" />
     <ignored path="yii2-test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1393934781702" ignored="false" />
+    <file path="/Dummy.txt" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394023249155" ignored="false" />
     <file path="/m140304_120439_create_todo_list.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1393934910370" ignored="false" />
-    <file path="/index.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1393948242302" ignored="false" />
+    <file path="/index.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394025819698" ignored="false" />
     <file path="/TodoList.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1393938217049" ignored="false" />
+    <file path="/view.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394010407922" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/themes/profit/views/admin/user/view.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394010601097" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/assets/aece3b4f/css/bootstrap.css" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394007097382" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/assets/aece3b4f/css/bootstrap-responsive.min.css" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394006680670" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/assets/aece3b4f/less/bootstrap-yii.less" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394006680670" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/assets/aece3b4f/css/bootstrap-yii.css" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394006680670" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/assets/aece3b4f/css/bootstrap.min.css" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394007097382" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/assets/aece3b4f/css/bootstrap-responsive.css" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394007097382" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/protected/modules/admin/controllers/UserController.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394010459235" ignored="false" />
+    <file path="/UserController.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394010108521" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/protected/models/UserDeposit.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394008568421" ignored="false" />
+    <file path="/UserDeposit.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394008565022" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/protected/models/OutputTransactions.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394009392730" ignored="false" />
+    <file path="/OutputTransactions.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394009383796" ignored="false" />
+    <file path="$PROJECT_DIR$/../h/public_html/themes/profit/views/layouts/home_main.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394010997347" ignored="false" />
+    <file path="$PROJECT_DIR$/../yii2-adv/www/common/config/main.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394012234081" ignored="false" />
+    <file path="$PROJECT_DIR$/../yii2-adv/www/environments/dev/common/config/main-local.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394012314277" ignored="false" />
+    <file path="$PROJECT_DIR$/../yii2-adv/www/environments/dev/console/config/main-local.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394012553949" ignored="false" />
+    <file path="/main.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394025678900" ignored="false" />
+    <file path="/default.js" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394028370913" ignored="false" />
+    <file path="/TodoListController.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394028133798" ignored="false" />
+    <file path="/_form.php" changelist="74ffb934-6791-48f1-b6ab-24531165adff" time="1394026520255" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +49,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/views/todo-list/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="14" selection-start="739" selection-end="739" vertical-scroll-proportion="0.47574627">
+            <state line="47" column="0" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-16.25">
               <folding>
                 <element signature="e#7#28#0" expanded="true" />
               </folding>
@@ -38,10 +60,66 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="_form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/views/todo-list/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="28" selection-start="293" selection-end="293" vertical-scroll-proportion="-8.208333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoListController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/controllers/TodoListController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="0" selection-start="1654" selection-end="1654" vertical-scroll-proportion="-16.25">
+              <folding>
+                <element signature="e#35#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/views/todo-list/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="46" selection-start="298" selection-end="342" vertical-scroll-proportion="-9.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_search.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/views/todo-list/_search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="8" selection-start="251" selection-end="273" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="61" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-9.375">
+            <state line="68" column="20" selection-start="1796" selection-end="1796" vertical-scroll-proportion="-17.291666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/web/js/default.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="11" selection-start="607" selection-end="607" vertical-scroll-proportion="0.5851064">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yii.gridView.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/vendor/yiisoft/yii2/assets/yii.gridView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="6" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,14 +142,17 @@
         <option value="$PROJECT_DIR$/www/models/TodoList.php" />
         <option value="$PROJECT_DIR$/www/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/www/views/todo-list/index.php" />
+        <option value="$PROJECT_DIR$/www/views/todo-list/_form.php" />
+        <option value="$PROJECT_DIR$/www/controllers/TodoListController.php" />
+        <option value="$PROJECT_DIR$/www/web/js/default.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -118,6 +199,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -183,6 +326,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -190,7 +369,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../h" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../municipal_control" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -212,14 +391,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="24" width="1301" height="744" extended-state="0" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25460368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19424461" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -295,24 +474,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/vendor/composer/installed.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="336" column="35" selection-start="10825" selection-end="10825" vertical-scroll-proportion="-5.480769" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/migrations/m140304_120439_create_todo_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="183" selection-end="183" vertical-scroll-proportion="0.25186568" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/yiisoft/yii2/web/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="54" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.3638298" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/controllers/TodoListController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="465" selection-end="465" vertical-scroll-proportion="0.64365673" />
+        <state line="63" column="54" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.3638298">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/views/todo-list/view.php">
@@ -320,14 +486,11 @@
         <state line="32" column="17" selection-start="754" selection-end="754" vertical-scroll-proportion="0.60820895" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/todo-list/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="147" selection-end="147" vertical-scroll-proportion="0.27985075" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/models/TodoList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="9" selection-start="1296" selection-end="1296" vertical-scroll-proportion="-18.041666" />
+        <state line="65" column="9" selection-start="1296" selection-end="1296" vertical-scroll-proportion="-18.041666">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/yiisoft/yii2/grid/GridView.php">
@@ -339,22 +502,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/vendor/yiisoft/yii2-bootstrap/Modal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="3" selection-start="467" selection-end="628" vertical-scroll-proportion="0.39179105" />
+        <state line="20" column="3" selection-start="467" selection-end="628" vertical-scroll-proportion="0.39179105">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/www/config/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="61" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-9.375">
+        <state line="2" column="0" selection-start="7" selection-end="86" vertical-scroll-proportion="0.05597015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1737" column="0" selection-start="28236" selection-end="28236" vertical-scroll-proportion="0.3327674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/yiisoft/yii2/base/Widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="27" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.34724858">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/views/todo-list/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="14" selection-start="739" selection-end="739" vertical-scroll-proportion="0.47574627">
+        <state line="47" column="0" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-16.25">
           <folding>
             <element signature="e#7#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="20" selection-start="1796" selection-end="1796" vertical-scroll-proportion="-17.291666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/todo-list/_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="8" selection-start="251" selection-end="273" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/todo-list/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="46" selection-start="298" selection-end="342" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/controllers/TodoListController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="1654" selection-end="1654" vertical-scroll-proportion="-16.25">
+          <folding>
+            <element signature="e#35#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/views/todo-list/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="293" selection-end="293" vertical-scroll-proportion="-8.208333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/yiisoft/yii2/assets/yii.gridView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="6" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/js/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="11" selection-start="607" selection-end="607" vertical-scroll-proportion="0.5851064">
+          <folding />
         </state>
       </provider>
     </entry>

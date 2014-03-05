@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;*/
 	<?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
 	<p>
-		<?= Html::a('Добавить', ['create'], ['class' => 'btn btn-success']) ?>
+		<?= Html::a('Добавить', '#', ['class' => 'btn btn-success','id'=>'add_task']) ?>
 	</p>
 
 	<?= GridView::widget([
@@ -44,13 +44,14 @@ $this->params['breadcrumbs'][] = $this->title;*/
 		],
 	]); ?>
 
-    <?php Modal::begin([
-     'header' => '<h2>Hello world</h2>',
-     'toggleButton' => ['label' => 'click me'],
- ]);
+    <?php Modal::begin(['id'=>'add_modal']); ?>
 
- echo 'Say hello...';
+                <div id=''><?= $this->render('_form', [
+                        'model' => $todoList,
+                    ]) ?></div>
 
- Modal::end(); ?>
+     <?php Modal::end(); ?>
 
 </div>
+
+

@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\TodoList;
 use app\models\search\TadoListSearch;
+use yii\helpers\Json;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\web\VerbFilter;
@@ -32,12 +33,14 @@ class TodoListController extends Controller
 	 */
 	public function actionIndex()
 	{
+        $todoList = new TodoList;
 		$searchModel = new TadoListSearch;
 		$dataProvider = $searchModel->search(Yii::$app->request->getQueryParams());
 
 		return $this->render('index', [
 			'dataProvider' => $dataProvider,
 			'searchModel' => $searchModel,
+            'todoList' => $todoList,
 		]);
 	}
 
@@ -62,13 +65,17 @@ class TodoListController extends Controller
 	{
 		$model = new TodoList;
 
-		if ($model->load(Yii::$app->request->post()) && $model->save()) {
-			return $this->redirect(['view', 'id' => $model->id]);
-		} else {
-			return $this->render('create', [
-				'model' => $model,
-			]);
-		}
+        if ( Yii::$app->request->isAjax ) {
+            if ($model->load(Yii::$app->request->post()) && $model->save()) {
+                echo Json::encode([
+                    'errors'=>0
+                ]);
+            } else {
+                echo Json::encode([
+                    'errors'=>1
+                ]);
+            }
+        }
 	}
 
 	/**

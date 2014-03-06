@@ -89,3 +89,40 @@ a.desc:after {
 	padding: 10px 20px;
 	margin: 0 0 15px 0;
 }
+#tasks li {
+    position: relative;
+    list-style-type: none;
+    padding: 2px 4px 4px 4px;
+    cursor: pointer;
+}
+#tasks li+li {
+    border-top: 1px solid #bbbbbb;
+}
+#tasks li:hover .remove {
+    display: inline;
+}
+.remove {
+    position: absolute;
+    right: 3px;
+    display: none;
+    padding: 0 4px 0 4px;
+
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+}
+.remove:hover {
+    text-decoration: none;
+    background-color: red;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.finished {
+    background-color: #03cca8;
+}
+
+.canceled {
+    color: #fff;
+    text-decoration: line-through;
+    background-color: #cc665c;
+}

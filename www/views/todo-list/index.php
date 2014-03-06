@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\bootstrap\Modal;
+use yii\widgets\Pjax;
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
@@ -16,42 +17,77 @@ $this->params['breadcrumbs'][] = $this->title;*/
 
 	<h1><?= Html::encode($this->title) ?></h1>
 
-	<?php // echo $this->render('_search', ['model' => $searchModel]); ?>
-
 	<p>
 		<?= Html::a('Добавить', '#', ['class' => 'btn btn-success','id'=>'add_task']) ?>
 	</p>
+<div id="tasks" class="col-lg-4">
+    <ul>
+        <?php foreach ( $tasks as $task):?>
 
-	<?= GridView::widget([
-		'dataProvider' => $dataProvider,
-		'filterModel' => $searchModel,
-        'layout' => '{items}{pager}',
-		'columns' => [
-			['class' => 'yii\grid\SerialColumn'],
+            <li <?= \app\models\TodoList::getStatusClass($task['status']) ?>><?= $task['title'];?><a id="<?= $task['id'];?>" href="<?= Html::url(['delete']) ?>" class="remove">x</a></li>
 
-			'title',
-			//'text:ntext',
-            [
-                'attribute' => 'status',
-                'value' =>function ($model) {
-                    return \app\models\TodoList::getStatusById($model->status);
-                },
+        <?php endforeach; ?>
+    </ul>
 
-            ],
-
-
-			['class' => 'yii\grid\ActionColumn'],
-		],
-	]); ?>
-
-    <?php Modal::begin(['id'=>'add_modal']); ?>
-
-                <div id=''><?= $this->render('_form', [
-                        'model' => $todoList,
-                    ]) ?></div>
-
-     <?php Modal::end(); ?>
 
 </div>
 
+    <?php Modal::begin(['id'=>'add_modal']); ?>
+            <div id='modal-content'></div>
+     <?php Modal::end(); ?>
 
+</div>
+<script>
+    $(document).ready(function(){
+
+        $("#add_task").on('click',function(){
+            $.ajax({
+                url: '<?= Html::url(['create']) ?>',
+                type: 'get',
+                success: function(html) {
+                    $("#modal-content").html(html);
+                    $("#add_modal").modal('show');
+                }
+            });
+            return false;
+        });
+
+        $("#tasks ul li").on('click', function(){
+            var id = $(this).find('a.remove').attr('id');
+
+            $.ajax({
+                url: '<?= Html::url(['update']) ?>',
+                type: 'get',
+                data: {id: id},
+                success: function(html) {
+                    $("#modal-content").html(html);
+                    $("#add_modal").modal('show');
+                }
+            });
+            return false;
+        })
+
+        $('a.remove').on('click', function(e){
+            var id = $(this).attr('id');
+            var remove = $(this);
+            $.ajax({
+                url: $(this).attr('href'),
+                dataType: 'json',
+                type: 'get',
+                data: {id: id},
+                success: function(data) {
+                    if ( data.errors == 0 ) {
+                        var li = remove.parent();
+                        li.css("background-color","red");
+                        li.fadeOut(300, function(){
+                            li.remove();
+                        });
+                    }
+                }
+            });
+            return false;
+        });
+
+
+    })
+</script>

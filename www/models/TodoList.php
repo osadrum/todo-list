@@ -56,13 +56,13 @@ class TodoList extends \yii\db\ActiveRecord
         ];
     }
 
-    public static function getStatusById($id){
-        if ( $id == self::STATUS_IN_WORK ){
-            $status = 'в работе';
-        } else if ( $id == self::STATUS_CANCELED ){
-            $status = 'отменено';
-        } else if ( $id == self::STATUS_FINISHED ){
-            $status = 'завершено';
+    public static function getStatusClass($status_id){
+        if ( $status_id == self::STATUS_IN_WORK ){
+            $status = '';
+        } else if ( $status_id == self::STATUS_CANCELED ){
+            $status = 'class="canceled"';
+        } else if ( $status_id == self::STATUS_FINISHED ){
+            $status = 'class="finished"';
         }
         return  $status;
     }

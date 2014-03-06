@@ -13,9 +13,9 @@ use yii\widgets\ActiveForm;
 <div class="todo-list-form">
 
 	<?php $form = ActiveForm::begin([
-        'id'=>'add-task-form',
-        'action' => ['create'],
+        'id'=>'edit-task-form',
     ]); ?>
+        <?= Html::activeHiddenInput($model, 'id') ?>
 
         <?= $form->field($model, 'title')->textInput(['maxlength' => 255]) ?>
 

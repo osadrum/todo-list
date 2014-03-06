@@ -21,7 +21,7 @@ class TodoListController extends Controller
 			'verbs' => [
 				'class' => VerbFilter::className(),
 				'actions' => [
-					'delete' => ['post'],
+					//'delete' => ['post'],
 				],
 			],
 		];
@@ -35,10 +35,13 @@ class TodoListController extends Controller
 	{
         $todoList = new TodoList;
 		$searchModel = new TadoListSearch;
-		$dataProvider = $searchModel->search(Yii::$app->request->getQueryParams());
+        $tasks = TodoList::find()
+            ->from(TodoList::tableName())
+            ->asArray(true)
+            ->all();
 
 		return $this->render('index', [
-			'dataProvider' => $dataProvider,
+			'tasks' => $tasks,
 			'searchModel' => $searchModel,
             'todoList' => $todoList,
 		]);
@@ -65,17 +68,14 @@ class TodoListController extends Controller
 	{
 		$model = new TodoList;
 
-        if ( Yii::$app->request->isAjax ) {
-            if ($model->load(Yii::$app->request->post()) && $model->save()) {
-                echo Json::encode([
-                    'errors'=>0
-                ]);
-            } else {
-                echo Json::encode([
-                    'errors'=>1
-                ]);
-            }
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['index']);
+        } else {
+            return $this->renderPartial('create', [
+                'model' => $model,
+            ], false, true);
         }
+
 	}
 
 	/**
@@ -86,14 +86,15 @@ class TodoListController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
+
 		$model = $this->findModel($id);
 
 		if ($model->load(Yii::$app->request->post()) && $model->save()) {
-			return $this->redirect(['view', 'id' => $model->id]);
+			return $this->redirect(['index']);
 		} else {
-			return $this->render('update', [
+			return $this->renderPartial('update', [
 				'model' => $model,
-			]);
+			], false, true);
 		}
 	}
 
@@ -105,8 +106,12 @@ class TodoListController extends Controller
 	 */
 	public function actionDelete($id)
 	{
-		$this->findModel($id)->delete();
-		return $this->redirect(['index']);
+		if ( $this->findModel($id)->delete() ) {
+            echo Json::encode([
+                'errors'=>0
+            ]);
+        }
+
 	}
 
 	/**
